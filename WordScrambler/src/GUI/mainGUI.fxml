@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="512.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.controller">
+   <children>
+      <Button id="upload" onAction="#fileUpload" layoutX="191.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Upload" />
+      <TextArea id="frequency" layoutX="163.0" layoutY="98.0" prefHeight="200.0" prefWidth="149.0" />
+      <TextArea id="text" layoutX="22.0" layoutY="98.0" prefHeight="200.0" prefWidth="127.0" />
+      <Button id="sort" onAction="#sortWords" layoutX="134.0" layoutY="394.0" mnemonicParsing="false" text="Sort" />
+      <Button id="count" onAction="#countFreq" layoutX="139.0" layoutY="336.0" mnemonicParsing="false" text="Count" />
+      <TextField alignment="CENTER" layoutX="8.0" layoutY="336.0" prefHeight="25.0" prefWidth="127.0" promptText="Type Word for Count" />
+      <TextField id="filename" editable="false" layoutX="22.0" layoutY="24.0" promptText="FileName" />
+      <TextField id="result" editable="false" layoutX="200.0" layoutY="336.0" prefHeight="25.0" prefWidth="103.0" promptText="Results" />
+   </children>
+</AnchorPane>

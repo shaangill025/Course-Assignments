@@ -1,0 +1,10 @@
+Chevy
+Malibu
+MPG: 27-37 | BHP: 160-250 | Engine: 1.5L 4 cyl or 2.0L 4 cyl | MSRP: > $21,625
+Toyata
+Camry
+MPG: 25-35 | BHP: 170-250 | Engine: 2.5L 4 cyl or 3.5L V6 | MSRP: > $23,500
+Ford 
+Fusion
+MPG: 24-36 | BHP: 175-231 | Engine: 1.5L 4 cyl or 2.0L 4 cyl or 2.5L 4 cyl | MSRP: > $22,110
+
